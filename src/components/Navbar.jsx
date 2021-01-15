@@ -1,10 +1,11 @@
 import { Navbar, Nav, Button } from 'react-bootstrap'
 import { Github, Linkedin } from 'react-bootstrap-icons'
+import './Navbar.css'
 
 export default function NavBar(props) {
 
     return (
-        <Navbar bg="dark" variant="dark" fixed="top">
+        <Navbar className="navbar" bg="dark" variant="dark" fixed="top">
             <Navbar.Brand href="#home">Aidan Dyer</Navbar.Brand>
             <Nav className="mr-auto">
                 <Nav.Link href="#about">About</Nav.Link>
