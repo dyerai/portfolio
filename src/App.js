@@ -1,8 +1,11 @@
 import './App.css';
 import profile from './images/profile.png'
-import NavBar from './components/Navbar'
+import NavBar from './components/Navbar/Navbar'
 import { Button } from 'react-bootstrap'
 import 'bootstrap/dist/css/bootstrap.min.css'
+import PDF from './Resume.pdf'
+import About from './components/About/About'
+import Skills from './components/Skills/Skills'
 
 function App() {
   return (
@@ -11,18 +14,32 @@ function App() {
         @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@100&display=swap');
       </style> 
       <NavBar />
-      <header className="App-header">
+      <header className="App-header" id='home'>
         <img src={profile} className="App-logo" alt="logo" />
         <h1 className="title">
           Aidan Dyer
         </h1>
         <div className="subheading">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <br></br>
         </div>
-        <Button size="lg">
+        <style type="text/css">
+        {`
+          .btn-xxl {
+            padding: 1rem 4rem;
+            font-size: 1.5rem;
+          }
+        `}
+        </style>
+        <Button size='xxl' href={PDF} target='_blank'>
           Resume
         </Button>
       </header>
+      <div id='about'>
+        <About />
+      </div>
+      <div id='skills' className='remove-gutter'>
+        <Skills />
+      </div>
     </div>
   );
 }

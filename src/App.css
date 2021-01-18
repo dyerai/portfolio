@@ -6,6 +6,7 @@
 .App-logo {
   height: 60vmin;
   pointer-events: none;
+  margin-bottom: -30px;
 }
 
 .title {
@@ -16,6 +17,12 @@
 
 .subheading {
   font-family: 'Open Sans', sans-serif;
+  margin-bottom: 30px;
+}
+
+.remove-gutter {
+  margin-top: -5.5vmin;
+  background-color: grey;
 }
 
 .App-header {
