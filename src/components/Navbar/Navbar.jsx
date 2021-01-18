@@ -14,10 +14,10 @@ export default function NavBar(props) {
                 <Nav.Link href="#contact">Contact</Nav.Link>
             </Nav>
            <Nav className="nav justify-content-end">
-                <Button variant="link" href="https://github.com/dyerai" >
+                <Button variant="link" href="https://github.com/dyerai" target="_blank">
                     <Github size={20} />
                 </Button>
-                <Button variant="link" href="https://www.linkedin.com/in/dyerai/">
+                <Button variant="link" href="https://www.linkedin.com/in/dyerai/" target="_blank">
                     <Linkedin size={20} />  
                 </Button>
            </Nav>
