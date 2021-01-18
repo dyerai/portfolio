@@ -47,12 +47,12 @@ export default function Skills() {
             <Container>
                 <h1 className='skills-title'>Skills</h1>
                 <h2 className='skills-subheading'>Languages</h2>
-                <Row>
+                <Row className='skills-row'>
                     {langLogoList}
                 </Row>
                 
                 <h2 className='skills-subheading'>Frameworks</h2>
-                <Row>
+                <Row className='skills-row'>
                     {frameLogoList}
                 </Row>
             </Container>

@@ -2,7 +2,7 @@ import { Navbar, Nav, Button } from 'react-bootstrap'
 import { Github, Linkedin } from 'react-bootstrap-icons'
 import './Navbar.css'
 
-export default function NavBar(props) {
+export default function NavBar() {
 
     return (
         <Navbar className="navbar" bg="dark" variant="dark" fixed="top">
