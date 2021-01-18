@@ -10,9 +10,6 @@ import Skills from './components/Skills/Skills'
 function App() {
   return (
     <div className="App">
-      <style>
-        @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@100&display=swap');
-      </style> 
       <NavBar />
       <header className="App-header" id='home'>
         <img src={profile} className="App-logo" alt="logo" />
