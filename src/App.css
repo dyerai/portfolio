@@ -3,7 +3,7 @@
   text-align: center;
 }
 
-.App-logo {
+.profile{
   height: 60vmin;
   pointer-events: none;
   margin-bottom: -30px;
@@ -38,6 +38,11 @@
 
 .App-link {
   color: #61dafb;
+}
+
+.section-title {
+  margin-top: -20px;
+  margin-bottom: 30px;
 }
 
 

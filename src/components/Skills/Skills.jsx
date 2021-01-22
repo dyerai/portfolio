@@ -42,10 +42,9 @@ export default function Skills() {
     ));
     
     return (
-        // TODO: maybe add interactivity when hovering over logos
         <Jumbotron>
             <Container>
-                <h1 className='skills-title'>Skills</h1>
+                <h1 className='section-title'>Skills</h1>
                 <h2 className='skills-subheading'>Languages</h2>
                 <Row className='skills-row'>
                     {langLogoList}
