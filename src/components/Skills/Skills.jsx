@@ -8,6 +8,7 @@ import csslogo from './logos/CSS3-logo.svg'
 import flasklogo from './logos/flask-icon.svg'
 import reactlogo from './logos/React-icon.svg'
 import bootstraplogo from './logos/Bootstrap_logo.svg'
+import nodelogo from './logos/Node.js_logo.svg'
 import './Skills.css'
 import Logo from './Logo'
 
@@ -23,6 +24,7 @@ export default function Skills() {
 
     const FRAMELOGOS = [
         {src:flasklogo, caption: "Flask"},
+        {src:nodelogo, caption: "Node.JS"},
         {src:reactlogo, caption: "React"},
         {src:bootstraplogo, caption: "Bootstrap"}
     ];
