@@ -24,6 +24,7 @@ export default function Skills() {
 
     const FRAMELOGOS = [
         {src:flasklogo, caption: "Flask"},
+        {src:nodelogo, caption: "Node.JS"},
         {src:reactlogo, caption: "React"},
         {src:nodelogo, caption: "Node.JS"},
         {src:bootstraplogo, caption: "Bootstrap"}
