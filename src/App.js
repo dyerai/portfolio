@@ -19,7 +19,7 @@ function App() {
           Aidan Dyer
         </h1>
         <div className="subheading">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <br></br>
+          Aspiring software developer, passionate creator, and insightful thinker <br></br>
         </div>
         <style type="text/css">
         {`

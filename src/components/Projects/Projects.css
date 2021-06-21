@@ -5,3 +5,10 @@
 .project-img {
     vertical-align: text-bottom;
 }
+
+#inprogress {
+    margin-top: 10%;
+    margin-bottom: 10%;
+    font-size: 20pt;
+    color: red;
+}

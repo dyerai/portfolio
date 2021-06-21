@@ -8,6 +8,7 @@ import csslogo from './logos/CSS3-logo.svg'
 import flasklogo from './logos/flask-icon.svg'
 import reactlogo from './logos/React-icon.svg'
 import bootstraplogo from './logos/Bootstrap_logo.svg'
+import nodelogo from './logos/Node.js_logo.svg'
 import './Skills.css'
 import Logo from './Logo'
 
@@ -24,6 +25,7 @@ export default function Skills() {
     const FRAMELOGOS = [
         {src:flasklogo, caption: "Flask"},
         {src:reactlogo, caption: "React"},
+        {src:nodelogo, caption: "Node.JS"},
         {src:bootstraplogo, caption: "Bootstrap"}
     ];
 
@@ -42,7 +44,7 @@ export default function Skills() {
     ));
     
     return (
-        <Jumbotron>
+        <Jumbotron className='nomargin'>
             <Container>
                 <h1 className='section-title'>Skills</h1>
                 <h2 className='skills-subheading'>Languages</h2>

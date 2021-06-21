@@ -22,7 +22,7 @@
 
 .remove-gutter {
   margin-top: -5.5vmin;
-  background-color: grey;
+  background-clip: padding-box;
 }
 
 .App-header {
@@ -43,6 +43,10 @@
 .section-title {
   margin-top: -20px;
   margin-bottom: 30px;
+}
+
+.nomargin {
+  margin-bottom: 0 !important;
 }
 
 
