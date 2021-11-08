@@ -1,5 +1,5 @@
 import './App.css';
-import profile from './images/profile.png'
+import profile from './images/siteProfile.png'
 import NavBar from './components/Navbar/Navbar'
 import { Button } from 'react-bootstrap'
 import 'bootstrap/dist/css/bootstrap.min.css'
